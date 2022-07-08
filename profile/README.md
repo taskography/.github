@@ -1,7 +1,7 @@
 # Taskography
 
 This is the landing page for *Taskography: Evaluating robot task planning over large 3D scene graphs*, presented at CoRL2021.
-For a brief overview of our work, please refer to our [project webpage](https://taskography.github.io/).
+For a brief overview of the work, please refer to our [project webpage](https://taskography.github.io/).
 
 
 ### :building_construction:	Taskography-API
@@ -13,15 +13,15 @@ Provides support for the following: (1) hierarchical-symbolic graph construction
 **[To Envs.](https://github.com/taskography/pddlgym)**
 Official benchmark environments in Planning Domain Definition Language ([PDDL]((https://planning.wiki/ref/pddl/domain))) instantiable in [gym](https://github.com/openai/gym) environment interfaces.
 
-### Learning-Based Planners
+### :rocket: Modern Planners (coming soon)
 **[To Planners.](https://github.com/taskography)**
-Coming soon.
+A collection of learning-based planners, SCRUB, and SEEK planners found to be most performant for 3D scene graph planning.
 
-### Classical Planners
+### :airplane: Classical Planners
 **[To Baselines.](https://github.com/agiachris/pddlgym_planners)**
 A package interfacing all satisficing and optimal symbolic planners benchmarked in Taskography with Python.
 
-### Development Repository
+### :house: Development Repository
 **[To Dev.](https://github.com/taskography/pddlgym)**
 An in-house repository that contains the [official benchmark results](https://github.com/taskography/3dscenegraph-dev/tree/main/scenegraph/exp-official) in `.json` file format, along with original scripts used to generate all Taskography planning domains.
 The majority of this code has been repurposed in Taskography-API.
