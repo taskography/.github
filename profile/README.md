@@ -26,7 +26,8 @@ Planners are automatically installed on first use.
 ### :house: Development Repository
 **[To Dev.](https://github.com/taskography/3dscenegraph-dev)**
 An in-house repository that contains the [official benchmark results](https://github.com/taskography/3dscenegraph-dev/tree/main/scenegraph/exp-official) in `.json` file format, along with original scripts used to generate all Taskography planning domains.
-The majority of this code has been repurposed in Taskography-API.
+
+**Note:** The majority of this code has been repurposed in Taskography-API.
 
 ---
 ## Citation
