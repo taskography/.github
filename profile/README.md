@@ -14,8 +14,8 @@ Provides support for the following: (1) hierarchical-symbolic graph construction
 Official benchmark domains encoded in Planning Domain Definition Language ([PDDL](https://planning.wiki/ref/pddl/domain)). 
 PDDLGym enables [gym-style](https://github.com/openai/gym) interfacing for each planning domain and problem pair.
 
-### :rocket: Modern Planners (coming soon)
-**[To Planners.](https://github.com/taskography)**
+### :rocket: Modern Planners
+**[To Planners.](https://github.com/taskography/scenegraph-planners)**
 A collection of performant, domain-agnostic learning-based planners, and the SCRUB and SEEK planners specifically designed to exploit 3D scene graph hierarchies.
 
 ### :airplane: Classical Planners
