@@ -11,15 +11,17 @@ Provides support for the following: (1) hierarchical-symbolic graph construction
 
 ### :earth_americas: PDDLGym Environments
 **[To Envs.](https://github.com/taskography/pddlgym)**
-Official benchmark environments in Planning Domain Definition Language ([PDDL]((https://planning.wiki/ref/pddl/domain))) instantiable in [gym](https://github.com/openai/gym) environment interfaces.
+Official benchmark domains encoded in Planning Domain Definition Language ([PDDL](https://planning.wiki/ref/pddl/domain)). 
+PDDLGym enables [gym-style](https://github.com/openai/gym) interfacing for each planning domain and problem pair.
 
 ### :rocket: Modern Planners (coming soon)
 **[To Planners.](https://github.com/taskography)**
-A collection of learning-based planners, SCRUB, and SEEK planners found to be most performant for 3D scene graph planning.
+A collection of performant, domain-agnostic learning-based planners, and the SCRUB and SEEK planners specifically designed to exploit 3D scene graph hierarchies.
 
 ### :airplane: Classical Planners
 **[To Baselines.](https://github.com/agiachris/pddlgym_planners)**
 A package interfacing all satisficing and optimal symbolic planners benchmarked in Taskography with Python.
+Planners are automatically installed on first use.
 
 ### :house: Development Repository
 **[To Dev.](https://github.com/taskography/pddlgym)**
@@ -28,7 +30,7 @@ The majority of this code has been repurposed in Taskography-API.
 
 ---
 ## Citation
-If you find any of packages useful, please consider citing our work:
+If you find Taskography useful, please consider citing our work:
 
 ```
 @inproceedings{agia2022taskography,
